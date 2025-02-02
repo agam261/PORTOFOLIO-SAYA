@@ -1,165 +1,79 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTOFOLIO SAYA</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Media</title>
     <style>
-        body {background-color: white; color:black;}
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: black;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      video {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      p {
+        font-size: 2%;
+        line-height: 1.6;
+        color: #333;
+      }
     </style>
-    <!-- Link ke CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Link ke file CSS custom -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SELAMAT DATANG DI HALAMAN MEDIA SAYA</h1>
+      <p>
+        Halo, nama saya Agam. Saya adalah seorang anak yang memiliki minat besar
+        di dunia teknologi, khususnya dalam pengembangan website. Saya senang
+        mempelajari hal-hal baru, terutama yang berkaitan dengan pemrograman dan
+        desain web. Melalui website yang saya kembangkan, saya berharap dapat
+        berbagi informasi, kreativitas, dan solusi yang bermanfaat bagi banyak
+        orang. Terima kasih telah mengunjungi karya saya, dan semoga Anda
+        menemukan hal yang berguna di sini!
+      </p>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">PORTOFOLIO SAYA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      <h2>FOTO SAYA</h2>
+      <img
+        src="FILE TUGAS TUGAS SAYA/foto saya.jpg"
+        alt="Pemandangan Alam"
+      />
+      <h2>DESKRIPSI PENJELASAN GAMBAR</h2>
+      <p>
+        Foto di atas menunjukkan seorang programmer yang sedang merancang sebuah website.
+        Kami harap Anda menikmati konten ini!
+      </p>
 
-    <!-- Home Section -->
-    <section id="home" class="text-center py-5">
-        <div class="container">
-            <h1 class="display-4">AGAM AL HAKIM HASIBUAN</h1>
-            <p class="lead">MEMBANGUN MASA DEPAN MELALUi TEKHNOLOGI</p>
-            <img src="contoh foto saya.jpg" class="img-kotak" width="100" height="200" />
-        </div>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center">TENTANG SAYA</h2>
-            <p>
-                Saya seorang mahasiswa Teknik Informatika yang saat ini sedang menempuh semester 2 di salah satu universitas. 
-                Berbekal rasa penasaran dan semangat untuk terus belajar, saya mulai mendalami dunia teknologi dan pemrograman sejak awal kuliah. 
-                Saya memiliki ketertarikan besar dalam pengembangan perangkat lunak, khususnya pengembangan web dan aplikasi.
-                Selain fokus pada studi, saya juga aktif mencari peluang untuk mengembangkan keterampilan saya melalui proyek-proyek kecil, 
-                mengikuti kursus online, dan berkolaborasi dengan teman-teman untuk menciptakan solusi teknologi yang berguna. 
-                Saya percaya bahwa teknologi memiliki kekuatan besar untuk mengubah dunia, dan saya ingin berkontribusi dalam menciptakan inovasi yang bermanfaat.
-                                                                        TERIMAKASIH
-                    
-            </p>
-            
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Skills</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>HTML</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="10" aria-valuemax="10">10%</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h5>CSS</h5>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="10" aria-valuemax="10">10%</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="projects" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card custom-card">
-                        <!-- Gambar diganti dengan Video -->
-                        <video class="card-img-top Video-card" width="200" height="200"controls>
-                            <source src="contoh video.mp4" type="video/mp4">
-                        <div class="card-body">
-                            <h5 class="card-title">PROYEK 1</h5>
-                            <p class="card-text">DESKRIPSI SINGKAT: di dalam sebuah proyek 1 ini ada seorang programmer yang sedang memikirkan strategi untuk pengembangan web nya</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card custom-card">
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                            <title>Document</title>
-                        </head>
-                        <body>
-                            
-                        </body>
-                        </html>
-                        <img src="foto ku.jpg" width="200" height="200" class="card-jpg-top" />
-                        <div class="card-body">
-                            <h5 class="card-title">Proyek 2</h5>
-                            <p class="card-text">DESKRIPSI SINGKAT: di proyek ke 2 ini ada sebuah programmer yang sedang merenung untuk memikirkan sebuah pengembbangan web yang dia buat </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center">KONTAK SAYA</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="agam06614@gmail.com">
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Pesan</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="selamat menikmati project random saya"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Kirim?</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- JavaScript, termasuk Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Contoh interaksi JavaScript: smooth scrolling saat klik navbar
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-</body>
+      <h2>Video Pendek</h2>
+      <video controls>
+        <source
+          src="FILE TUGAS TUGAS SAYA/contoh video.mp4"
+          type="video/mp4"
+        />
+        Browser Anda tidak mendukung video tag.
+      </video>
+      <h2>Teks Penjelasan Video</h2>
+      <p>
+        Foto di atas menunjukkan pemandangan yang indah, sementara video
+        memberikan cuplikan singkat tentang pemandangan serupa. Kami harap Anda
+        menikmati konten ini!
+      </p>
+    </div>
+  </body>
 </html>
